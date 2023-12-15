@@ -1,0 +1,80 @@
+/* body{
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHbXsBB9kXSgQfmMwepLZzPq4yUMLK9_r1RA&usqp=CAU);
+    background-size:200%;
+    background-repeat: no-repeat; */
+    body {
+        background: linear-gradient(229deg, #7007a1, #a50c0c, #03ce91);
+        background-size: 600% 600%;
+    
+        -webkit-animation: AnimationName 30s ease infinite;
+        -moz-animation: AnimationName 30s ease infinite;
+        animation: AnimationName 30s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 96%}
+        50%{background-position:100% 5%}
+        100%{background-position:0% 96%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 96%}
+        50%{background-position:100% 5%}
+        100%{background-position:0% 96%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 96%}
+        50%{background-position:100% 5%}
+        100%{background-position:0% 96%}
+    }
+    
+
+.container{
+    width: 1200px;
+    display:grid;
+    margin-left: 15%;
+}
+.block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px;
+}
+button{
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px;
+    background: rgb(135,68,207);
+background: linear-gradient(90deg, rgba(135,68,207,1) 51%, rgba(115,255,253,1) 100%);
+}
+.item{
+    padding: 10px;
+}
+.item1{
+background: rgb(135,68,207);
+background: linear-gradient(90deg, rgba(135,68,207,1) 51%, rgba(115,255,253,1) 100%);
+    border-radius: 20px;
+}
+.square{
+    display: grid;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    background: #03ce91;
+}
+.vstavka{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    background: rgb(135,68,207);
+    background: linear-gradient(90deg, rgba(135,68,207,1) 51%, rgba(115,255,253,1) 100%);
+        border-radius: 20px;
+}
+.p2{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p3{
+    font-size: 26px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
